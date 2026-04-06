@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-horror: "Courier Prime", "Courier New", Courier, monospace;
+}
+
+body {
+  @apply bg-black text-[#ff0000] font-horror overflow-hidden;
+}
